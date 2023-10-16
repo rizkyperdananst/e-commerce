@@ -29,7 +29,7 @@ const Home = () => {
                 <button className='p-2 bg-blue-600 text-white rounded-md'>Login</button>
             </div>
         </nav>
-        <nav className="nav-second flex flex-col bg-shadow rounded-md bg-white p-2">
+        <nav className="nav-second flex flex-col bg-shadow rounded-md bg-white p-2 md:hidden">
             <ul className="list-none">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#product">Product</a></li>
